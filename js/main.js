@@ -41,7 +41,7 @@ var PlayState = {
     this.load.image("two", "assets/two.png");
     this.load.image("three", "assets/three.png");
     this.load.image("bg", "assets/bg.png");
-    game.load.audio("aa", './assets/aa.m4a');
+    game.load.audio("aa", './assets/aa.mp3');
     game.load.audio("bb", './assets/bb.mp3');
     game.load.audio("cc", './assets/cc.mp3');
   },
