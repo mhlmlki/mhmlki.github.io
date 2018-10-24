@@ -51,7 +51,7 @@ var PlayState = {
 
     game.physics.startSystem(Phaser.Physics.ARCADE);
 
-    player = this.game.add.sprite(-20,30,"train");
+    player = this.game.add.sprite(-10,30,"train");
     game.physics.arcade.enable(player);
     player.enableBody = true;
     game.world.bringToTop(player);
